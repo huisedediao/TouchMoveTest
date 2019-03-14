@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F17B20F12238E05300EC63D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B20F02238E05300EC63D2 /* AppDelegate.m */; };
+		F17B20F42238E05300EC63D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B20F32238E05300EC63D2 /* ViewController.m */; };
+		F17B20F72238E05300EC63D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17B20F52238E05300EC63D2 /* Main.storyboard */; };
+		F17B20F92238E05400EC63D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17B20F82238E05400EC63D2 /* Assets.xcassets */; };
+		F17B20FC2238E05400EC63D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17B20FA2238E05400EC63D2 /* LaunchScreen.storyboard */; };
+		F17B20FF2238E05400EC63D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B20FE2238E05400EC63D2 /* main.m */; };
+		F17B21092238E05500EC63D2 /* XBTouchToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21082238E05500EC63D2 /* XBTouchToolTests.m */; };
+		F17B21142238E05500EC63D2 /* XBTouchToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21132238E05500EC63D2 /* XBTouchToolUITests.m */; };
+		F17B21242238E08000EC63D2 /* XBTouchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21232238E08000EC63D2 /* XBTouchTool.m */; };
+		F17B21272238E38A00EC63D2 /* PrivaceCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21262238E38A00EC63D2 /* PrivaceCoverView.m */; };
+		F17B215D2238E72200EC63D2 /* XBButton+CompatibleUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21542238E72200EC63D2 /* XBButton+CompatibleUIButton.m */; };
+		F17B215E2238E72200EC63D2 /* XBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21552238E72200EC63D2 /* XBButton.m */; };
+		F17B217B2238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21632238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F17B217C2238E7CE00EC63D2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B216C2238E7CE00EC63D2 /* ViewController+MASAdditions.m */; };
+		F17B217D2238E7CE00EC63D2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21702238E7CE00EC63D2 /* MASCompositeConstraint.m */; };
+		F17B217E2238E7CE00EC63D2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21712238E7CE00EC63D2 /* MASConstraintMaker.m */; };
+		F17B217F2238E7CE00EC63D2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21722238E7CE00EC63D2 /* MASLayoutConstraint.m */; };
+		F17B21802238E7CE00EC63D2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21732238E7CE00EC63D2 /* NSArray+MASAdditions.m */; };
+		F17B21812238E7CE00EC63D2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21742238E7CE00EC63D2 /* View+MASAdditions.m */; };
+		F17B21822238E7CE00EC63D2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21772238E7CE00EC63D2 /* MASConstraint.m */; };
+		F17B21832238E7CE00EC63D2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B21792238E7CE00EC63D2 /* MASViewConstraint.m */; };
+		F17B21842238E7CE00EC63D2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B217A2238E7CE00EC63D2 /* MASViewAttribute.m */; };
+		F17B218B2238F44900EC63D2 /* pt180h_home_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F17B21852238F44800EC63D2 /* pt180h_home_up_arrow.png */; };
+		F17B218C2238F44900EC63D2 /* pt180h_home_up_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17B21862238F44800EC63D2 /* pt180h_home_up_arrow@3x.png */; };
+		F17B218D2238F44900EC63D2 /* pt180h_home_up_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17B21872238F44800EC63D2 /* pt180h_home_up_arrow@2x.png */; };
+		F17B218E2238F44900EC63D2 /* pt180h_home_down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17B21882238F44800EC63D2 /* pt180h_home_down_arrow@2x.png */; };
+		F17B218F2238F44900EC63D2 /* pt180h_home_down_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F17B21892238F44800EC63D2 /* pt180h_home_down_arrow@3x.png */; };
+		F17B21902238F44900EC63D2 /* pt180h_home_down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F17B218A2238F44900EC63D2 /* pt180h_home_down_arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F17B21052238E05500EC63D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17B20E42238E05300EC63D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17B20EB2238E05300EC63D2;
+			remoteInfo = XBTouchTool;
+		};
+		F17B21102238E05500EC63D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17B20E42238E05300EC63D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17B20EB2238E05300EC63D2;
+			remoteInfo = XBTouchTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F17B20EC2238E05300EC63D2 /* XBTouchTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBTouchTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17B20EF2238E05300EC63D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F17B20F02238E05300EC63D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F17B20F22238E05300EC63D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F17B20F32238E05300EC63D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F17B20F62238E05300EC63D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F17B20F82238E05400EC63D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F17B20FB2238E05400EC63D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F17B20FD2238E05400EC63D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17B20FE2238E05400EC63D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F17B21042238E05500EC63D2 /* XBTouchToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBTouchToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17B21082238E05500EC63D2 /* XBTouchToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTouchToolTests.m; sourceTree = "<group>"; };
+		F17B210A2238E05500EC63D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17B210F2238E05500EC63D2 /* XBTouchToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBTouchToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17B21132238E05500EC63D2 /* XBTouchToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTouchToolUITests.m; sourceTree = "<group>"; };
+		F17B21152238E05500EC63D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17B21222238E08000EC63D2 /* XBTouchTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBTouchTool.h; sourceTree = "<group>"; };
+		F17B21232238E08000EC63D2 /* XBTouchTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTouchTool.m; sourceTree = "<group>"; };
+		F17B21252238E38A00EC63D2 /* PrivaceCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivaceCoverView.h; sourceTree = "<group>"; };
+		F17B21262238E38A00EC63D2 /* PrivaceCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivaceCoverView.m; sourceTree = "<group>"; };
+		F17B21542238E72200EC63D2 /* XBButton+CompatibleUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XBButton+CompatibleUIButton.m"; sourceTree = "<group>"; };
+		F17B21552238E72200EC63D2 /* XBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBButton.m; sourceTree = "<group>"; };
+		F17B21562238E72200EC63D2 /* XBButton+CompatibleUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XBButton+CompatibleUIButton.h"; sourceTree = "<group>"; };
+		F17B21572238E72200EC63D2 /* XBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBButton.h; sourceTree = "<group>"; };
+		F17B21622238E7CE00EC63D2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F17B21632238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F17B21642238E7CE00EC63D2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F17B21652238E7CE00EC63D2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F17B21662238E7CE00EC63D2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F17B21672238E7CE00EC63D2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F17B21682238E7CE00EC63D2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F17B21692238E7CE00EC63D2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F17B216A2238E7CE00EC63D2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F17B216B2238E7CE00EC63D2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F17B216C2238E7CE00EC63D2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F17B216D2238E7CE00EC63D2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F17B216E2238E7CE00EC63D2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F17B216F2238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F17B21702238E7CE00EC63D2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F17B21712238E7CE00EC63D2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F17B21722238E7CE00EC63D2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F17B21732238E7CE00EC63D2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F17B21742238E7CE00EC63D2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F17B21752238E7CE00EC63D2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F17B21762238E7CE00EC63D2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F17B21772238E7CE00EC63D2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F17B21782238E7CE00EC63D2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F17B21792238E7CE00EC63D2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F17B217A2238E7CE00EC63D2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F17B21852238F44800EC63D2 /* pt180h_home_up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pt180h_home_up_arrow.png; sourceTree = "<group>"; };
+		F17B21862238F44800EC63D2 /* pt180h_home_up_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pt180h_home_up_arrow@3x.png"; sourceTree = "<group>"; };
+		F17B21872238F44800EC63D2 /* pt180h_home_up_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pt180h_home_up_arrow@2x.png"; sourceTree = "<group>"; };
+		F17B21882238F44800EC63D2 /* pt180h_home_down_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pt180h_home_down_arrow@2x.png"; sourceTree = "<group>"; };
+		F17B21892238F44800EC63D2 /* pt180h_home_down_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pt180h_home_down_arrow@3x.png"; sourceTree = "<group>"; };
+		F17B218A2238F44900EC63D2 /* pt180h_home_down_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pt180h_home_down_arrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17B20E92238E05300EC63D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17B21012238E05500EC63D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17B210C2238E05500EC63D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17B20E32238E05300EC63D2 = {
+			isa = PBXGroup;
+			children = (
+				F17B20EE2238E05300EC63D2 /* XBTouchTool */,
+				F17B21072238E05500EC63D2 /* XBTouchToolTests */,
+				F17B21122238E05500EC63D2 /* XBTouchToolUITests */,
+				F17B20ED2238E05300EC63D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F17B20ED2238E05300EC63D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17B20EC2238E05300EC63D2 /* XBTouchTool.app */,
+				F17B21042238E05500EC63D2 /* XBTouchToolTests.xctest */,
+				F17B210F2238E05500EC63D2 /* XBTouchToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F17B20EE2238E05300EC63D2 /* XBTouchTool */ = {
+			isa = PBXGroup;
+			children = (
+				F17B218A2238F44900EC63D2 /* pt180h_home_down_arrow.png */,
+				F17B21882238F44800EC63D2 /* pt180h_home_down_arrow@2x.png */,
+				F17B21892238F44800EC63D2 /* pt180h_home_down_arrow@3x.png */,
+				F17B21852238F44800EC63D2 /* pt180h_home_up_arrow.png */,
+				F17B21872238F44800EC63D2 /* pt180h_home_up_arrow@2x.png */,
+				F17B21862238F44800EC63D2 /* pt180h_home_up_arrow@3x.png */,
+				F17B21612238E7CE00EC63D2 /* Masonry */,
+				F17B21532238E72200EC63D2 /* XBButton */,
+				F17B21212238E06B00EC63D2 /* XBTouchTool */,
+				F17B20EF2238E05300EC63D2 /* AppDelegate.h */,
+				F17B20F02238E05300EC63D2 /* AppDelegate.m */,
+				F17B20F22238E05300EC63D2 /* ViewController.h */,
+				F17B20F32238E05300EC63D2 /* ViewController.m */,
+				F17B20F52238E05300EC63D2 /* Main.storyboard */,
+				F17B20F82238E05400EC63D2 /* Assets.xcassets */,
+				F17B20FA2238E05400EC63D2 /* LaunchScreen.storyboard */,
+				F17B20FD2238E05400EC63D2 /* Info.plist */,
+				F17B20FE2238E05400EC63D2 /* main.m */,
+				F17B21252238E38A00EC63D2 /* PrivaceCoverView.h */,
+				F17B21262238E38A00EC63D2 /* PrivaceCoverView.m */,
+			);
+			path = XBTouchTool;
+			sourceTree = "<group>";
+		};
+		F17B21072238E05500EC63D2 /* XBTouchToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				F17B21082238E05500EC63D2 /* XBTouchToolTests.m */,
+				F17B210A2238E05500EC63D2 /* Info.plist */,
+			);
+			path = XBTouchToolTests;
+			sourceTree = "<group>";
+		};
+		F17B21122238E05500EC63D2 /* XBTouchToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F17B21132238E05500EC63D2 /* XBTouchToolUITests.m */,
+				F17B21152238E05500EC63D2 /* Info.plist */,
+			);
+			path = XBTouchToolUITests;
+			sourceTree = "<group>";
+		};
+		F17B21212238E06B00EC63D2 /* XBTouchTool */ = {
+			isa = PBXGroup;
+			children = (
+				F17B21222238E08000EC63D2 /* XBTouchTool.h */,
+				F17B21232238E08000EC63D2 /* XBTouchTool.m */,
+			);
+			path = XBTouchTool;
+			sourceTree = "<group>";
+		};
+		F17B21532238E72200EC63D2 /* XBButton */ = {
+			isa = PBXGroup;
+			children = (
+				F17B21542238E72200EC63D2 /* XBButton+CompatibleUIButton.m */,
+				F17B21552238E72200EC63D2 /* XBButton.m */,
+				F17B21562238E72200EC63D2 /* XBButton+CompatibleUIButton.h */,
+				F17B21572238E72200EC63D2 /* XBButton.h */,
+			);
+			path = XBButton;
+			sourceTree = "<group>";
+		};
+		F17B21612238E7CE00EC63D2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F17B21622238E7CE00EC63D2 /* MASCompositeConstraint.h */,
+				F17B21632238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F17B21642238E7CE00EC63D2 /* MASConstraint+Private.h */,
+				F17B21652238E7CE00EC63D2 /* MASLayoutConstraint.h */,
+				F17B21662238E7CE00EC63D2 /* NSArray+MASShorthandAdditions.h */,
+				F17B21672238E7CE00EC63D2 /* MASConstraintMaker.h */,
+				F17B21682238E7CE00EC63D2 /* View+MASAdditions.h */,
+				F17B21692238E7CE00EC63D2 /* NSArray+MASAdditions.h */,
+				F17B216A2238E7CE00EC63D2 /* MASUtilities.h */,
+				F17B216B2238E7CE00EC63D2 /* MASViewAttribute.h */,
+				F17B216C2238E7CE00EC63D2 /* ViewController+MASAdditions.m */,
+				F17B216D2238E7CE00EC63D2 /* MASViewConstraint.h */,
+				F17B216E2238E7CE00EC63D2 /* MASConstraint.h */,
+				F17B216F2238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F17B21702238E7CE00EC63D2 /* MASCompositeConstraint.m */,
+				F17B21712238E7CE00EC63D2 /* MASConstraintMaker.m */,
+				F17B21722238E7CE00EC63D2 /* MASLayoutConstraint.m */,
+				F17B21732238E7CE00EC63D2 /* NSArray+MASAdditions.m */,
+				F17B21742238E7CE00EC63D2 /* View+MASAdditions.m */,
+				F17B21752238E7CE00EC63D2 /* View+MASShorthandAdditions.h */,
+				F17B21762238E7CE00EC63D2 /* Masonry.h */,
+				F17B21772238E7CE00EC63D2 /* MASConstraint.m */,
+				F17B21782238E7CE00EC63D2 /* ViewController+MASAdditions.h */,
+				F17B21792238E7CE00EC63D2 /* MASViewConstraint.m */,
+				F17B217A2238E7CE00EC63D2 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F17B20EB2238E05300EC63D2 /* XBTouchTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17B21182238E05500EC63D2 /* Build configuration list for PBXNativeTarget "XBTouchTool" */;
+			buildPhases = (
+				F17B20E82238E05300EC63D2 /* Sources */,
+				F17B20E92238E05300EC63D2 /* Frameworks */,
+				F17B20EA2238E05300EC63D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBTouchTool;
+			productName = XBTouchTool;
+			productReference = F17B20EC2238E05300EC63D2 /* XBTouchTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F17B21032238E05500EC63D2 /* XBTouchToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17B211B2238E05500EC63D2 /* Build configuration list for PBXNativeTarget "XBTouchToolTests" */;
+			buildPhases = (
+				F17B21002238E05500EC63D2 /* Sources */,
+				F17B21012238E05500EC63D2 /* Frameworks */,
+				F17B21022238E05500EC63D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17B21062238E05500EC63D2 /* PBXTargetDependency */,
+			);
+			name = XBTouchToolTests;
+			productName = XBTouchToolTests;
+			productReference = F17B21042238E05500EC63D2 /* XBTouchToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F17B210E2238E05500EC63D2 /* XBTouchToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17B211E2238E05500EC63D2 /* Build configuration list for PBXNativeTarget "XBTouchToolUITests" */;
+			buildPhases = (
+				F17B210B2238E05500EC63D2 /* Sources */,
+				F17B210C2238E05500EC63D2 /* Frameworks */,
+				F17B210D2238E05500EC63D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17B21112238E05500EC63D2 /* PBXTargetDependency */,
+			);
+			name = XBTouchToolUITests;
+			productName = XBTouchToolUITests;
+			productReference = F17B210F2238E05500EC63D2 /* XBTouchToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17B20E42238E05300EC63D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xxb;
+				TargetAttributes = {
+					F17B20EB2238E05300EC63D2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F17B21032238E05500EC63D2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F17B20EB2238E05300EC63D2;
+					};
+					F17B210E2238E05500EC63D2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F17B20EB2238E05300EC63D2;
+					};
+				};
+			};
+			buildConfigurationList = F17B20E72238E05300EC63D2 /* Build configuration list for PBXProject "XBTouchTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17B20E32238E05300EC63D2;
+			productRefGroup = F17B20ED2238E05300EC63D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F17B20EB2238E05300EC63D2 /* XBTouchTool */,
+				F17B21032238E05500EC63D2 /* XBTouchToolTests */,
+				F17B210E2238E05500EC63D2 /* XBTouchToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17B20EA2238E05300EC63D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17B20FC2238E05400EC63D2 /* LaunchScreen.storyboard in Resources */,
+				F17B218F2238F44900EC63D2 /* pt180h_home_down_arrow@3x.png in Resources */,
+				F17B20F92238E05400EC63D2 /* Assets.xcassets in Resources */,
+				F17B218B2238F44900EC63D2 /* pt180h_home_up_arrow.png in Resources */,
+				F17B218D2238F44900EC63D2 /* pt180h_home_up_arrow@2x.png in Resources */,
+				F17B20F72238E05300EC63D2 /* Main.storyboard in Resources */,
+				F17B218E2238F44900EC63D2 /* pt180h_home_down_arrow@2x.png in Resources */,
+				F17B218C2238F44900EC63D2 /* pt180h_home_up_arrow@3x.png in Resources */,
+				F17B21902238F44900EC63D2 /* pt180h_home_down_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17B21022238E05500EC63D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17B210D2238E05500EC63D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17B20E82238E05300EC63D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17B20F42238E05300EC63D2 /* ViewController.m in Sources */,
+				F17B215D2238E72200EC63D2 /* XBButton+CompatibleUIButton.m in Sources */,
+				F17B21802238E7CE00EC63D2 /* NSArray+MASAdditions.m in Sources */,
+				F17B20FF2238E05400EC63D2 /* main.m in Sources */,
+				F17B21842238E7CE00EC63D2 /* MASViewAttribute.m in Sources */,
+				F17B21272238E38A00EC63D2 /* PrivaceCoverView.m in Sources */,
+				F17B217F2238E7CE00EC63D2 /* MASLayoutConstraint.m in Sources */,
+				F17B21812238E7CE00EC63D2 /* View+MASAdditions.m in Sources */,
+				F17B217D2238E7CE00EC63D2 /* MASCompositeConstraint.m in Sources */,
+				F17B20F12238E05300EC63D2 /* AppDelegate.m in Sources */,
+				F17B217C2238E7CE00EC63D2 /* ViewController+MASAdditions.m in Sources */,
+				F17B21242238E08000EC63D2 /* XBTouchTool.m in Sources */,
+				F17B215E2238E72200EC63D2 /* XBButton.m in Sources */,
+				F17B217E2238E7CE00EC63D2 /* MASConstraintMaker.m in Sources */,
+				F17B217B2238E7CE00EC63D2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F17B21822238E7CE00EC63D2 /* MASConstraint.m in Sources */,
+				F17B21832238E7CE00EC63D2 /* MASViewConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17B21002238E05500EC63D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17B21092238E05500EC63D2 /* XBTouchToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17B210B2238E05500EC63D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17B21142238E05500EC63D2 /* XBTouchToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17B21062238E05500EC63D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17B20EB2238E05300EC63D2 /* XBTouchTool */;
+			targetProxy = F17B21052238E05500EC63D2 /* PBXContainerItemProxy */;
+		};
+		F17B21112238E05500EC63D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17B20EB2238E05300EC63D2 /* XBTouchTool */;
+			targetProxy = F17B21102238E05500EC63D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F17B20F52238E05300EC63D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17B20F62238E05300EC63D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F17B20FA2238E05400EC63D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17B20FB2238E05400EC63D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F17B21162238E05500EC63D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F17B21172238E05500EC63D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17B21192238E05500EC63D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC2BP8QGY9;
+				INFOPLIST_FILE = XBTouchTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxb.study;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17B211A2238E05500EC63D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC2BP8QGY9;
+				INFOPLIST_FILE = XBTouchTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxb.study;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17B211C2238E05500EC63D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBTouchToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.XBTouchToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBTouchTool.app/XBTouchTool";
+			};
+			name = Debug;
+		};
+		F17B211D2238E05500EC63D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBTouchToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.XBTouchToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBTouchTool.app/XBTouchTool";
+			};
+			name = Release;
+		};
+		F17B211F2238E05500EC63D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBTouchToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.XBTouchToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBTouchTool;
+			};
+			name = Debug;
+		};
+		F17B21202238E05500EC63D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBTouchToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.XBTouchToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBTouchTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17B20E72238E05300EC63D2 /* Build configuration list for PBXProject "XBTouchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17B21162238E05500EC63D2 /* Debug */,
+				F17B21172238E05500EC63D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17B21182238E05500EC63D2 /* Build configuration list for PBXNativeTarget "XBTouchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17B21192238E05500EC63D2 /* Debug */,
+				F17B211A2238E05500EC63D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17B211B2238E05500EC63D2 /* Build configuration list for PBXNativeTarget "XBTouchToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17B211C2238E05500EC63D2 /* Debug */,
+				F17B211D2238E05500EC63D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17B211E2238E05500EC63D2 /* Build configuration list for PBXNativeTarget "XBTouchToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17B211F2238E05500EC63D2 /* Debug */,
+				F17B21202238E05500EC63D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F17B20E42238E05300EC63D2 /* Project object */;
+}
